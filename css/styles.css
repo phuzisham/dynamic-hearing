@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
 nav .phone {
   max-width: 73px;
   max-height: 71px;
@@ -62,22 +72,28 @@ nav a:hover {
   max-width: 100%;
 }
 
-iframe.map {
+/* #map {
+  padding: 13px;
+  background-color: #b7d1e5;
+} */
+
+iframe {
   width: 100%;
   border: none;
 }
 
 footer {
-  background-color: #0F67A7;
-  color: white;
+  background-color: #b7d1e5;
+  color: black;
+  font-size: 1.3rem;
 }
 
 footer a {
-  color: white;
+  color: black;
 }
 
 footer a:hover {
-  color: black;
+  color: white;
 }
 
 @media only screen and (max-width: 576px) {
