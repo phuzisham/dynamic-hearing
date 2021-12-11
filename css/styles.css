@@ -48,6 +48,11 @@ nav a:hover {
   font-weight: bold;
 }
 
+.contact button:hover {
+  background-color: #0F67A7;
+  color: white;
+}
+
 .contact input,
 .contact textarea {
   background-color: gainsboro;
