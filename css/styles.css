@@ -1,0 +1,92 @@
+nav .phone {
+  max-width: 73px;
+  max-height: 71px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav .find {
+  max-width: 47px;
+  max-height: 78px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav .chat {
+  max-width: 63px;
+  max-height: 59px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav p {
+  font-weight: bold;
+}
+
+nav li {
+  min-height: 110px;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  color: #0F67A7;
+}
+
+.blue-background {
+  background-color: #b7d1e5;
+}
+
+.contact {
+  /* border: solid 1px black; */
+}
+
+.contact button {
+  background-color: #b7d1e5;
+  font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+  background-color: gainsboro;
+}
+
+.bio img {
+  max-width: 100%;
+}
+
+iframe.map {
+  width: 100%;
+  border: none;
+}
+
+footer {
+  background-color: #0F67A7;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 576px) {
+  .blue-background {
+    width: 100%;
+  }
+
+  .logo {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .logo {
+    max-width: 200px;
+  }
+}
