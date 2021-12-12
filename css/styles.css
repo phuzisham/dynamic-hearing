@@ -45,6 +45,10 @@ nav a:hover {
   color: #0F67A7;
 }
 
+p {
+  font-size: 1.1rem;
+}
+
 .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -84,6 +88,10 @@ iframe {
 footer {
   background-color: #b7d1e5;
   color: black;
+  font-size: 1.3rem;
+}
+
+footer p {
   font-size: 1.3rem;
 }
 
