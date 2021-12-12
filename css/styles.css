@@ -8,6 +8,10 @@ h1 {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav .phone {
   max-width: 73px;
   max-height: 71px;
@@ -33,10 +37,6 @@ nav p {
   font-weight: bold;
 }
 
-nav li {
-  min-height: 110px;
-}
-
 nav a {
   color: black;
 }
@@ -45,12 +45,16 @@ nav a:hover {
   color: #0F67A7;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .blue-background {
   background-color: #b7d1e5;
 }
 
-.contact {
-  /* border: solid 1px black; */
+.blue-text {
+  color: #b7d1e5;
 }
 
 .contact button {
@@ -72,11 +76,6 @@ nav a:hover {
   max-width: 100%;
 }
 
-/* #map {
-  padding: 13px;
-  background-color: #b7d1e5;
-} */
-
 iframe {
   width: 100%;
   border: none;
@@ -94,6 +93,19 @@ footer a {
 
 footer a:hover {
   color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  nav li {
+    min-height: 110px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-nav {
+    margin-top: 1.5rem;
+    background-color: #b7d1e5;
+  }
 }
 
 @media only screen and (max-width: 576px) {
