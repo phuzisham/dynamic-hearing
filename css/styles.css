@@ -49,6 +49,15 @@ p {
   font-size: 1.1rem;
 }
 
+.logo {
+  max-width: 420px;
+}
+
+.brand-logo {
+  width: 40%;
+  margin-top: 3em;
+}
+
 .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -120,14 +129,14 @@ footer a:hover {
   .blue-background {
     width: 100%;
   }
-
-  .logo {
-    max-width: 300px;
-  }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 520px) {
   .logo {
-    max-width: 200px;
+    max-width: 75%;
+  }
+
+  .brand-logo {
+    width: 100%;
   }
 }
